@@ -1,0 +1,117 @@
+//<BUTTONS>================================================================================================================
+.btn {
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	padding: 0px 25px;
+	height: 48px;
+	box-sizing: border-box;
+	line-height: 18px;
+	color: #ffffff;
+	border: 2px solid #ff7f22;
+	border-radius: 60px;
+	background: transparent;
+	font-size: 16px;
+	font-weight: 600;
+	line-height: 24px;
+	letter-spacing: 1px;
+	cursor: pointer;
+	transition: all 0.3s ease 0s;
+	width: 200px;
+	&:hover {
+		transition: all 0.3s ease 0s;
+		background-color: #ff5722;
+	}
+}
+//</BUTTONS>===============================================================================================================
+
+.input {
+	border-radius: 5px;
+	border: 1px solid #e5e5e5;
+	width: 100%;
+	max-width: 237px;
+	height: 60px;
+	display: block;
+	padding: 0px 20px;
+	background: #e5e5e5;
+	margin: 0px 10px 10px 0px;
+	@media (max-width: 560px) {
+		max-width: none;
+	}
+	input {
+		padding: 0px 0px;
+		margin: 0px 0px;
+	}
+}
+
+.checkbox {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	&__text {
+		margin: 0px 0px 0px 25px;
+	}
+}
+input[type="checkbox"] {
+	visibility: hidden;
+}
+
+/* SQUARED THREE */
+.squaredThree {
+	width: 20px;
+	position: relative;
+	margin: 0px 0px 9px 0px;
+}
+
+.squaredThree label {
+	cursor: pointer;
+	position: absolute;
+	width: 24px;
+	height: 24px;
+	top: 0;
+	border-radius: 0px;
+
+	border: 2px solid #A3B8CC;
+
+	-webkit-box-shadow: inset 0px 1px 1px rgba(0, 0, 0, 0.5), 0px 1px 0px rgba(255, 255, 255, 0.4);
+	-moz-box-shadow: inset 0px 1px 1px rgba(0, 0, 0, 0.5), 0px 1px 0px rgba(255, 255, 255, 0.4);
+	box-shadow: inset 0px 1px 1px rgba(0, 0, 0, 0.5), 0px 1px 0px rgba(255, 255, 255, 0.4);
+	background: transparent;
+
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#222', endColorstr='#45484d',GradientType=0 );
+}
+
+.squaredThree label:after {
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+	filter: alpha(opacity=0);
+	opacity: 0;
+	content: "";
+	position: absolute;
+	width: 12px;
+	height: 9px;
+	background: transparent;
+	top: 4px;
+	left: 4px;
+	border: 2px solid #FF7F22;
+	border-top: none;
+	border-right: none;
+	-webkit-transform: rotate(-50deg);
+	-moz-transform: rotate(-50deg);
+	-o-transform: rotate(-50deg);
+	-ms-transform: rotate(-50deg);
+	transform: rotate(-50deg);
+}
+
+.squaredThree label:hover::after {
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=30)";
+	filter: alpha(opacity=30);
+	opacity: 0.3;
+}
+
+.squaredThree input[type="checkbox"]:checked + label:after {
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+	filter: alpha(opacity=100);
+	opacity: 1;
+}
+
+

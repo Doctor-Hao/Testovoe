@@ -1,0 +1,112 @@
+/* Example css file */
+
+
+@font-face {
+  font-family: "MontserratMedium";
+  src: url('/assets/fonts/Montserrat/Montserrat-Medium.woff') format('woff');
+  font-weight: 500;
+
+}
+
+@font-face {
+  font-family: "MontserratSemiBold";
+  src: url('/assets/fonts/Montserrat/Montserrat-SemiBold.woff') format('woff');
+  font-weight: 600;
+
+}
+
+.sprite {
+  background-image: url(spritesheet.png);
+  background-repeat: no-repeat;
+  display: block;
+}
+
+.sprite-1 {
+  width: 236px;
+  height: 320px;
+  background-position: -5px -5px;
+}
+
+.sprite-1-_1_ {
+  width: 236px;
+  height: 320px;
+  background-position: -251px -5px;
+}
+
+.sprite-2 {
+  width: 236px;
+  height: 320px;
+  background-position: -497px -5px;
+}
+
+.sprite-22 {
+  width: 236px;
+  height: 320px;
+  background-position: -743px -5px;
+}
+
+.sprite-3 {
+  width: 236px;
+  height: 320px;
+  background-position: -5px -335px;
+}
+
+.sprite-33 {
+  width: 236px;
+  height: 320px;
+  background-position: -251px -335px;
+}
+
+.sprite-4 {
+  width: 236px;
+  height: 320px;
+  background-position: -497px -335px;
+}
+
+.sprite-44 {
+  width: 236px;
+  height: 320px;
+  background-position: -743px -335px;
+}
+
+.sprite-Designer-Famale-4 {
+  width: 236px;
+  height: 320px;
+  background-position: -5px -665px;
+}
+
+.sprite-Designer-Male-1 {
+  width: 236px;
+  height: 320px;
+  background-position: -251px -665px;
+}
+
+.sprite-Front-Famale-2 {
+  width: 236px;
+  height: 320px;
+  background-position: -497px -665px;
+}
+
+.sprite-Front-Male-3 {
+  width: 236px;
+  height: 320px;
+  background-position: -743px -665px;
+}
+
+.sprite-Icon-meh {
+  width: 48px;
+  height: 48px;
+  background-position: -989px -5px;
+}
+
+.sprite-Icon-meh {
+  width: 48px;
+  height: 48px;
+  background-position: -989px -63px;
+}
+
+.sprite-Icon-meh {
+  width: 48px;
+  height: 48px;
+  background-position: -989px -121px;
+}

@@ -1,0 +1,25 @@
+{
+   "items": [
+      {
+         "id": 1,
+         "image": "1.png",
+         "label": "Биорука",
+         "price": "7",
+         "sell": "5"
+      },
+      {
+         "id": 2,
+         "image": "2.png",
+         "label": "Микрочип",
+         "price": "5",
+         "sell": "3"
+      },
+      {
+         "id": 3,
+         "image": "3.png",
+         "label": "Душа",
+         "price": "25",
+         "sell": "15"
+      }
+   ]
+}

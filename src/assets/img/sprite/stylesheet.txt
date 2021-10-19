@@ -1,0 +1,95 @@
+.sprite {
+    background-image: url(spritesheet.png);
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.sprite-Designer-Famale-1 {
+    width: 236px;
+    height: 320px;
+    background-position: -5px -5px;
+}
+
+.sprite-Designer-Famale-2 {
+    width: 236px;
+    height: 320px;
+    background-position: -251px -5px;
+}
+
+.sprite-Designer-Famale-3 {
+    width: 236px;
+    height: 320px;
+    background-position: -497px -5px;
+}
+
+.sprite-Designer-Male-1 {
+    width: 236px;
+    height: 320px;
+    background-position: -743px -5px;
+}
+
+.sprite-Designer-Male-2 {
+    width: 236px;
+    height: 320px;
+    background-position: -5px -335px;
+}
+
+.sprite-Designer-Male-3 {
+    width: 236px;
+    height: 320px;
+    background-position: -251px -335px;
+}
+
+.sprite-Front-Famale-1 {
+    width: 236px;
+    height: 320px;
+    background-position: -497px -335px;
+}
+
+.sprite-Front-Famale-2 {
+    width: 236px;
+    height: 320px;
+    background-position: -743px -335px;
+}
+
+.sprite-Front-Famale-3 {
+    width: 236px;
+    height: 320px;
+    background-position: -5px -665px;
+}
+
+.sprite-Front-Male-1 {
+    width: 236px;
+    height: 320px;
+    background-position: -251px -665px;
+}
+
+.sprite-Front-Male-2 {
+    width: 236px;
+    height: 320px;
+    background-position: -497px -665px;
+}
+
+.sprite-Front-Male-3 {
+    width: 236px;
+    height: 320px;
+    background-position: -743px -665px;
+}
+
+.sprite-Subtract-active {
+    width: 48px;
+    height: 48px;
+    background-position: -989px -5px;
+}
+
+.sprite-Subtract-have {
+    width: 48px;
+    height: 48px;
+    background-position: -989px -63px;
+}
+
+.sprite-Subtract-not-have {
+    width: 48px;
+    height: 48px;
+    background-position: -989px -121px;
+}
