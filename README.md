@@ -6,9 +6,6 @@
 Скачиваем репозиторий
 https://github.com/Doctor-Hao/Testovoe.git
 
-# Go to the app:
-cd webpack-template
-
 # Install dependencies:
 npm install
 
