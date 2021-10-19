@@ -11,8 +11,7 @@
 ## Build Setup:
 
 ``` bash
-# Download repository:
-git clone https://github.com/vedees/webpack-template webpack-template
+Скачиваете архив
 
 # Go to the app:
 cd webpack-template
