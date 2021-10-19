@@ -4,7 +4,7 @@
 
 ``` bash
 Скачиваем репозиторий
-https://github.com/Doctor-Hao/Testovoe.git
+git clone https://github.com/Doctor-Hao/Testovoe.git
 
 # Install dependencies:
 npm install
