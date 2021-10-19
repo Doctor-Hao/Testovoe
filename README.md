@@ -3,8 +3,11 @@
 ## Build Setup:
 
 ``` bash
-Скачиваем репозиторий
+# Скачиваем репозиторий
 git clone https://github.com/Doctor-Hao/Testovoe.git
+
+# Переходим в папку проекта
+cd Testovoe 
 
 # Install dependencies:
 npm install
