@@ -3,10 +3,10 @@
 
 ``` bash
 # Download repository:
-git clone https://github.com/vedees/webpack-template webpack-template
+git clone https://github.com/Doctor-Hao/Testovoe.git
 
 # Go to the app:
-cd webpack-template
+cd Testovoe
 
 # Install dependencies:
 npm install
