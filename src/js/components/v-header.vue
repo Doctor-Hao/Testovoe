@@ -92,6 +92,16 @@ export default {
 
   // .v-header__buttons
   &__buttons {
+
+    &:hover {
+      background: #ff5722;
+		border-radius: 50px;
+		transition: all 0.3s ease 0s;
+    }
+
+    &:active {
+      background: #ff7f22;
+    }
   }
 }
 

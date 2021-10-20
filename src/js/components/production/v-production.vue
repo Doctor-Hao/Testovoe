@@ -120,10 +120,10 @@
 <script>
 import { mapGetters, mapActions } from 'vuex'
 import vDetails from './v-details.vue'
-import vPopup from '.././v-popup.vue'
+import vPopup from '../popup/v-popup.vue'
 import vRobot from './v-robot.vue'
-import vBtn from '../v-btn-market.vue'
-import vBtnBuild from '../v-btn-build.vue'
+import vBtn from '../btn/v-btn-market.vue'
+import vBtnBuild from '../btn/v-btn-build.vue'
 
 export default {
   name: 'v-production',

@@ -51,7 +51,7 @@
 
 <script>
 import vCoin from './v-coin.vue'
-import vPopup from '.././v-popup.vue'
+import vPopup from '../popup/v-popup.vue'
 import { mapGetters, mapActions } from 'vuex'
 
 export default {
@@ -168,6 +168,10 @@ export default {
     &:hover {
       color: #da6818;
       border-bottom: 1px solid #da6818;
+    }
+
+    &:active {
+      color: #ff7f22;
     }
 
     @media (max-width: 767px) {

@@ -9,8 +9,8 @@
 
 <script>
 import vWallet from './wallet/v-wallet.vue'
-import vMarket from './v-market.vue'
-import vStorage from './v-storage.vue'
+import vMarket from './market/v-market.vue'
+import vStorage from './storage/v-storage.vue'
 import vProduction from './production/v-production.vue'
 import { mapGetters } from 'vuex'
 
